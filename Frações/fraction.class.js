@@ -32,8 +32,8 @@ export class Fraction {
     reduce() {
         for (let i = 2; i < this.denominator; i++) {
             if (this._numerator % i === 0 && this._denominator % i === 0) {
-                this._denominator = this._denominator / 3;
-                this._numerator = this._numerator / 3;
+                this._denominator = this._denominator / i;
+                this._numerator = this._numerator / i;
             }
         }
         return false;
