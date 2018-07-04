@@ -1,5 +1,5 @@
-// Fraction(numerator, denominator)
 import {Fraction} from './fraction.class.js';
+
 const fr = new Fraction(3, 4); // para representar "três quartos"
 console.log(fr.numerator === 3);
 console.log(fr.denominator === 4);
